@@ -1,4 +1,5 @@
 import { Lock } from 'lucide-react';
+import { ImageWithFallback } from './figma/ImageWithFallback';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -9,9 +10,11 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-violet-600 to-blue-600 flex items-center justify-center">
-                <Lock className="w-4 h-4 text-white" />
-              </div>
+              <ImageWithFallback
+                src="https://cdn.discordapp.com/attachments/1399603099814990005/1411468152906321951/CRYPTO_VAULT.png?ex=68fbf4a7&is=68faa327&hm=d7753950637ad989664ef89325c1b56196cf0bcc379400c1415bb7d29c74999f&"
+                alt="The Crypto Vault"
+                className="h-8 w-auto"
+              />
               <span className="text-white">The Crypto Vault</span>
             </div>
             <p className="text-zinc-400 text-sm max-w-md">
