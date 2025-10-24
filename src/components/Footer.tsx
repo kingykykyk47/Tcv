@@ -13,7 +13,7 @@ export function Footer() {
               <ImageWithFallback
                 src="https://cdn.discordapp.com/attachments/1399603099814990005/1411468152906321951/CRYPTO_VAULT.png?ex=68fbf4a7&is=68faa327&hm=d7753950637ad989664ef89325c1b56196cf0bcc379400c1415bb7d29c74999f&"
                 alt="The Crypto Vault"
-                className="h-8 w-auto"
+                className="h-16 w-auto"
               />
               <span className="text-white">The Crypto Vault</span>
             </div>
