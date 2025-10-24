@@ -30,10 +30,10 @@ function Counter({ end, duration = 2, suffix = '' }: { end: number; duration?: n
   }, [isInView, end, duration]);
 
   return (
-    <div ref={ref}>
+    <span ref={ref}>
       {count}
       {suffix}
-    </div>
+    </span>
   );
 }
 
