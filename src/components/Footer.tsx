@@ -1,5 +1,6 @@
 import { Lock } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import logoUrl from '../assets/crypto_vault.png';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -11,7 +12,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <ImageWithFallback
-                src="https://cdn.discordapp.com/attachments/1399603099814990005/1431188247232647269/CRYPTO_VAULT.png?ex=68fc816c&is=68fb2fec&hm=c3c1c2386ee7f59bfb28640b317f3800695ba7fc8a74aa46405d5e1337dabc53&"
+                src={logoUrl}
                 alt="The Crypto Vault"
                 className="h-20 w-auto"
               />
